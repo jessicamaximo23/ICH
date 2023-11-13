@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#C89E9B</color>
+    <color name="roseclaro">#EAD5D0</color>
+    <color name="rosemidle">#D5AAA0</color>
+    <color name="teal_200">#5C7266</color>
+    <color name="teal">#043018</color>
+    <color name="roseescuro">#FF8A80</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FDFDFD</color>
+    <color name="rose">#D5AAA0</color>
+    
+    <color name="start">#E7CFCB</color>
+    <color name="midle">#80978D</color>
+</resources>

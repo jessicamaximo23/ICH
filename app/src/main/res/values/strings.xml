@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="app_name">Instituto do Corpo Humano>
+        <item name="colorPrimary">@color/design_default_color_on_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/design_default_color_background</item>
+    </style>
+</resources>

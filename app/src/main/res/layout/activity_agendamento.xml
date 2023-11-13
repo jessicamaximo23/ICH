@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport= "true"    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.Agendamento"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendamento"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="18dp"        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/rose" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"        />
+    </androidx.cardview.widget.CardView>
+
+        <DatePicker
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarTextColor="@color/black"
+            android:background="@color/white"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/rose" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+    </androidx.cardview.widget.CardView>
+    
+    <TimePicker
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:timePickerMode="spinner"
+        android:calendarTextColor="@color/black"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha um Fisioterapeuta:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+    
+    <CheckBox
+        android:id="@+id/fisioterapeuta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daniella Ornelas"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_agendar_agendamento"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Agendar"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="18sp"
+        app:cornerRadius="15dp"
+        android:layout_margin="40dp"   />
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
