@@ -42,7 +42,7 @@
     </androidx.cardview.widget.CardView>
 
         <DatePicker
-            android:id="@+id/data"
+            android:id="@+id/date_picker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:calendarTextColor="@color/black"
@@ -67,7 +67,7 @@
     </androidx.cardview.widget.CardView>
     
     <TimePicker
-        android:id="@+id/timer"
+        android:id="@+id/timer_picker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -82,7 +82,7 @@
         android:textStyle="bold"
         android:gravity="center"
         android:textColor="@color/white"
-        android:layout_margin="20dp"/>
+        android:layout_margin="0dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
         android:orientation="horizontal"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="0dp">
     
     <CheckBox
         android:id="@+id/fisioterapeuta1"
@@ -104,21 +104,26 @@
         android:text="Daniella Ornelas"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold"        />
+        android:textStyle="bold"
+        />
 
     </LinearLayout>
 
     <Button
         android:id="@+id/btn_agendar_agendamento"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="Agendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar"
         android:textStyle="bold"
         android:textColor="@color/white"
         android:backgroundTint="@color/teal_200"
         android:textSize="18sp"
         app:cornerRadius="15dp"
-        android:layout_margin="40dp"   />
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"/>
 
 
 

@@ -21,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ICH"
+        android:layout_marginTop="20dp"
         android:textSize="28sp"
         android:textColor="@color/teal"
         android:textStyle="bold"
@@ -75,8 +76,8 @@
         app:cornerRadius="15dp"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:textColor="@color/teal"
-        android:backgroundTint="@color/roseclaro"
+        android:textColor="@color/teal_200"
+        android:backgroundTint="@color/rosemidle"
          />
 
     <TextView
