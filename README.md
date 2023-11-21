@@ -1,5 +1,5 @@
 # ICH
-This is a real project that I am developing for a Physical Therapy Clinic (Instituto do Corpo humano-Brasil)
+This is a project that I am developing for a Physical Therapy Clinic (Instituto do Corpo humano-Formosa-Goiais -Brasil)
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
@@ -7,22 +7,29 @@ This is a real project that I am developing for a Physical Therapy Clinic (Insti
 
 ## Tecnologies
 * Kotlin
-* Activity para host de telas
+* Activity for screens host
 * ViewGroup
     * RelativeLayout
     * LinearLayout
-- UI Components:
+    * ConstraingLayout
+    * RecyclerView
+    * ScrollView
+* UI Components:
     - TextView
     - EditText
     - Button
     - Image View
-    - Clickable itens (whats app and instagram)
-    - 
-- Toast para display de mensagens
-- Intent Explicita para abrir a segunda Activity
-- FindViewById para recuperar components de UI
-- String resource para concatenação de textos
-
+    - Card view
+    - Date Picker
+    - TimerPicker
+    - CheckBox
+- Toast for display messages
+- Intent for open screens
+- Binding for recovery UI components
+- String resource for text concatenation
+- ClickListener,Clickable itens (whats app and instagram)
+- RecyclerView
+- Date piker and time picker for calendar
 
 
 ## Author
