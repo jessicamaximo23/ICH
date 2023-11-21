@@ -40,7 +40,7 @@ class Agendamento : AppCompatActivity() {
         if (dayOfMonth < 10) {
             dia = "0$dayOfMonth"
         }
-        if (monthOfYear <10){
+        if (monthOfYear < 10){
            mes = "" + (monthOfYear + 1)
         } else {
             mes = (monthOfYear + 1).toString()

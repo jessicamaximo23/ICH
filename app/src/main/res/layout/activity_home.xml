@@ -59,12 +59,12 @@
             android:id="@+id/tv_redessociais"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Acesse o instagram ou entre em contato :"
+            android:text="Clique aqui para acessar :"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="18sp"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="0dp"/>
+            android:layout_marginTop="10dp"/>
 
         <ImageView
             android:id="@+id/iv_instagram"
